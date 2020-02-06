@@ -14,7 +14,15 @@ if (cookies != null) {
 
 <html>
 <head>
-<link href="/css/style.css" rel="stylesheet" type="text/css">
+<meta name="salesforce-community" content="https://developer-atlcommunitydev.cs128.force.com/atmEdgar">
+<meta name="salesforce-client-id" content="3MVG9Lu3LaaTCEgI2eh_HYhPQfdqjOo10OoiiR1NelMZDc_Ot3_eydv5BAZy7okz2qoMfYhvlGsnB_bqL6rxE">
+<meta name="salesforce-redirect-uri" content="https://embeddedloginedgar.herokuapp.com/_callback.html">	
+<meta name="salesforce-mode" content="modal">
+<meta name="salesforce-save-access-token" content="true">
+<meta name="salesforce-login-handler" content="onLogin">
+<meta name="salesforce-logout-handler" content="onLogout">
+<link href="https://developer-atlcommunitydev.cs128.force.com/atmEdgar/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css">
+<script src="https://developer-atlcommunitydev.cs128.force.com/atmEdgar/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
 </head>
 
 <body>
