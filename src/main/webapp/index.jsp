@@ -16,8 +16,10 @@ if (cookies != null) {
 <head>
 <meta name="salesforce-community" content="https://developer-atlcommunitydev.cs128.force.com/atmEdgar">
 <meta name="salesforce-client-id" content="3MVG9Lu3LaaTCEgI2eh_HYhPQfdqjOo10OoiiR1NelMZDc_Ot3_eydv5BAZy7okz2qoMfYhvlGsnB_bqL6rxE">
-<meta name="salesforce-redirect-uri" content="https://embeddedloginedgar.herokuapp.com/_callback.html">	
+<meta name="salesforce-server-callback" content="true">
+<meta name="salesforce-redirect-uri" content="https://embeddedloginedgar.herokuapp.com/_callback">	
 <meta name="salesforce-mode" content="modal">
+<meta name="salesforce-target" content="#salesforce-login">
 <meta name="salesforce-save-access-token" content="true">
 <meta name="salesforce-login-handler" content="onLogin">
 <meta name="salesforce-logout-handler" content="onLogout">
@@ -28,7 +30,7 @@ if (cookies != null) {
 <body>
 
 
-<% if (identity != null ) { %>
+<% if (identity != null ) { %> 
 <center>
 <h2><%= identity.getSubject() %></h2>
 <table border="0" cellpadding="5">
