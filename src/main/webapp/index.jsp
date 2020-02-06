@@ -91,4 +91,12 @@ function onLogin(identity) {
 		
 		
 	}
+	function onLogout() {
+2
+        SFIDWidget.init();
+3
+ 
+4
+        }
+
 </script>
